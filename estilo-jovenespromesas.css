@@ -12,7 +12,7 @@ header {
     padding: 1rem 0;
 }
 
-header .container {
+header .contenido {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,9 @@ header .container {
     margin: 0 auto;
     padding: 0 20px;
 }
-
+h1{
+    text-align: center;
+}
 header h1 {
     margin: 0;
     font-size: 1.8rem;
@@ -56,6 +58,9 @@ section h2 {
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
+h3{
+    display: flex;
+}
 
 article {
     background: #fff;
@@ -70,6 +75,7 @@ article img {
     border-radius: 5px;
     margin-right: 15px;
     object-fit: cover;
+    
 }
 
 article div {
@@ -80,7 +86,10 @@ article h3 {
     margin-top: 0;
     color: #007BFF;
 }
-
+h3{
+    display: inline-block;
+    float: right;
+}
 footer {
     text-align: center;
     background: #333;
